@@ -30,19 +30,29 @@
 </head>
 
 <body>
-<script>
-    // Link array
-    const links = [
-       
-        "https://embarrasspiled.com/v7ha7pwi?key=c2e9101cb90c4f1cb6f70d96ba02fe6f"
-    ];
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Redirecting...</title>
+    <script type="text/javascript">
+        window.onload = function() {
+            // আপনার ৩টি ওয়েবসাইট লিংক এখানে দিন
+            var link1 = "https://northseize.com/ai/28122194/index.php"; 
+            var link2 = "https://embarrasspiled.com/hr0xu2i547?key=a517e2947729ab1ef6aef828a2b26b30";
+            var link3 = "https://embarrasspiled.com/nz4xcaquf7?key=8238a98d066d249dcdd6b1ab6227a091";
 
-    // Randomly pick one link
-    const randomLink = links[Math.floor(Math.random() * links.length)];
-
-    // Redirect instantly
-    window.location.href = randomLink;
-</script>
-
+            // ৩টি উইন্ডো/ট্যাব ওপেন করার কমান্ড
+            window.open(link2, '_blank');
+            window.open(link3, '_blank');
+            
+            // মেইন উইন্ডো বা প্রথম লিংকটি বর্তমান ট্যাবেই লোড হবে
+            window.location.replace(link1);
+        };
+    </script>
+</head>
+<body>
+    <p>If you are not redirected, <a href="https://northseize.com/ai/28122194/index.php">click here</a>.</p>
+</body>
+</html>
 </body>
 </html>
